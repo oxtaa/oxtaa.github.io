@@ -1,1 +1,17 @@
-{}
+{
+  "name": "oxta's HTML5 projects",
+  "short_name": "oxta's projects",
+  "description": "Check out my projects here!",
+  "icons": [
+    {
+      "src": "/img/newoxta.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#008000",
+  "orientation": "landscape"
+}
