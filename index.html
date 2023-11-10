@@ -14,21 +14,39 @@
     body {
       text-align: center;
       font-family: 'Allan', sans-serif;
+      background-color: black;
+      overflow: hidden;
     }
     .mainText {
       font-size: 34px;
-      font-weight: bold;
       margin-bottom: 10px;
+      color: white;
     }
     .secondaryText {
       font-size: 24px;
-      font-weight: bold;
       margin-bottom: 10px;
       font-family: 'Raleway', sans-serif;
+      color: white;
+    }
+    .background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    .pattern {
+      background: repeating-linear-gradient(45deg, transparent, transparent 10px, gray 10px, gray 20px);
+      width: 100%;
+      height: 100%;
     }
   </style>
 </head>
 <body>
+  <div class="background">
+    <div class="pattern"></div>
+  </div>
   <h2 class="mainText">Welcome to my page! Here you can find some of my HTML5 projects (something like computerdude77 lol)</h2>
   <h2 class="secondaryText">Incredibox</h2>
   <div>
