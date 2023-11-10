@@ -1,2 +1,2 @@
 # oxtaa.github.io
-this is da main page boi.
+main page for the html5 projects
