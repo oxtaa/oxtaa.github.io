@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:title" content="oxta's projects">
   <meta property="og:description" content="Check out my HTML5 projects!"> 
   <meta property="og:image" content="/img/oxta (1).png"> 
@@ -10,6 +9,7 @@
   <meta property="og:site_name" content="oxtaa.github.io">
   <link rel="manifest" href="/manifest.json">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Raleway:wght@400;700&display=swap">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>oxta's projects</title>
   <style>
     body {
@@ -32,7 +32,7 @@
       color: white;
     }
     .descText {
-      font-size: 10px;
+      font-size: 14px;
       font-weight: lighter;
       margin-bottom: 10px;
       font-family: 'Raleway', sans-serif;
@@ -46,6 +46,17 @@
       height: 100%;
       z-index: -1;
     }
+    button {
+      font-family: 'Raleway', sans-serif;
+      font-size: 18px;
+      background-color: #f2f2f2;
+      color: #333;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
   </style>
 </head>
 <body>
@@ -55,13 +66,15 @@
   <h2 class="secondaryText">Incredibox</h2>
   <h5 class="descText">The original game.<h3>
   <div>
-    <img src="/img/og.png" alt="Incredibox" onclick="originalIncredibox()"/>
+    <img src="/img/og.png" alt="Incredibox"/>
+    <button onclick="originalIncredibox()">Go to Incredibox</button>
   </div>
   <h2 class="mainText">Mods<h2>
   <h2 class="secondaryText">Axe Boat #MixForPeace (Recreation)</h2>
   <h5 class="descText">A recreation of the old flash game which was a beta of v4 "The Love".<h5>
   <div>
-    <img src="/img/mfp.png" alt="Incredibox" onclick="axeBoatMod()"/>
+    <img src="/img/mfp.png" alt="Incredibox"/>
+    <button onclick="axeBoatMod()">Go to Axe Boat</button>
   </div>
 
   <script>
@@ -72,7 +85,7 @@
       window.location.href = "https://oxtaa.github.io/incredibox-axe-boat";
     }
     function reverseMod() {
-      //coming soon
+      // coming soon
       window.location.href = "https://oxtaa.github.io/incredibox-reverse";
     }
   </script>
